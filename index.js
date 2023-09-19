@@ -106,7 +106,7 @@ async function run() {
       res.send(result);
     });
 
-    // Deccending by price
+  
     app.get("/descending", async (req, res) => {
       const email = req.query.email;
       const filter = { email: email };
